@@ -19,11 +19,11 @@ class Artist
     @@artists
   end
 
-  def self
+  def self.all
     self.all.clear
   end
 
-  def self
+  def self.count
     self.all
   end
 
