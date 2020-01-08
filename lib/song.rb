@@ -18,11 +18,11 @@ class Song
     @@songs
   end
 
-  def self
+  def self.reset_all
     self.all.clear
   end
 
-  def self
+  def self.count
     self.all
   end
 
