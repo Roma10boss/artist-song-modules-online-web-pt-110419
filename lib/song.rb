@@ -22,7 +22,7 @@ class Song
     self.all.clear
   end
 
-  def self.count
+  def self
     self.all
   end
 
